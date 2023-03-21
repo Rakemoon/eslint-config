@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "Personal preferable eslint config",
+  "main": "index.js",
+  "repository": "https://github.com/Rakemoon/eslint-config.git",
+  "author": "Rakemoon <rakemoonkuzmin@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --ignore-path .gitignore . --fix"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.36.0",
+    "@types/node": "^18.15.5",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "typescript": "^5.0.2"
+  }
+}
