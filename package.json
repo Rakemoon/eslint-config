@@ -1,0 +1,43 @@
+{
+  "name": "@rakemoon/eslint-config",
+  "version": "2.0.3",
+  "description": "Personal preferable eslint config",
+  "main": "index.mjs",
+  "repository": "https://github.com/Rakemoon/eslint-config.git",
+  "author": "Rakemoon <rakemoonkuzmin@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.1.0",
+    "@stylistic/eslint-plugin": "^2.3.0",
+    "eslint": "^9.6.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^48.5.0",
+    "eslint-plugin-n": "^17.9.0",
+    "eslint-plugin-promise": "^6.2.0",
+    "eslint-plugin-tsdoc": "^0.3.0",
+    "eslint-plugin-unicorn": "^54.0.0",
+    "globals": "^15.6.0",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.14.1"
+  },
+  "peerDependencies": {
+    "@eslint/compat": "^1.1.0",
+    "@stylistic/eslint-plugin": "^2.3.0",
+    "eslint": "^9.6.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^48.5.0",
+    "eslint-plugin-n": "^17.9.0",
+    "eslint-plugin-promise": "^6.2.0",
+    "eslint-plugin-tsdoc": "^0.3.0",
+    "eslint-plugin-unicorn": "^54.0.0",
+    "globals": "^15.6.0",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.14.1"
+  }
+}
